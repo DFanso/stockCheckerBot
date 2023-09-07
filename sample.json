@@ -1,0 +1,262 @@
+{
+    "request_info": {
+      "success": true,
+      "credits_used": 12,
+      "credits_remaining": 88,
+      "credits_used_this_request": 1
+    },
+    "request_parameters": {
+      "type": "product",
+      "tcin": "78025470"
+    },
+    "request_metadata": {
+      "created_at": "2023-09-07T14:09:18.604Z",
+      "processed_at": "2023-09-07T14:09:30.138Z",
+      "total_time_taken": 11.53,
+      "target_url": "https://www.target.com/p/-/A-78025470"
+    },
+    "product": {
+      "tcin": "78025470",
+      "title": "Sharpie Pocket 4pk Highlighters Narrow Chisel Tip Multicolored",
+      "link": "https://www.target.com/p/sharpie-pocket-4pk-highlighters-narrow-chisel-tip-multicolored/-/A-78025470",
+      "breadcrumbs": [
+        {
+          "name": "Target",
+          "link": "https://www.target.com/"
+        },
+        {
+          "name": "School & Office Supplies",
+          "link": "https://www.target.com/c/school-office-supplies/-/N-5xsxr"
+        },
+        {
+          "name": "Highlighters",
+          "link": "https://www.target.com/c/highlighters-writing-supplies-school-office/-/N-4yjut"
+        }
+      ],
+      "brand": "Sharpie",
+      "brand_link": "https://www.target.com/b/sharpie/-/N-56cak",
+      "rating": 4.8,
+      "ratings_total": 576,
+      "upc": "071641174603",
+      "dpci": "081-02-3451",
+      "main_image": {
+        "link": "https://target.scene7.com/is/image/Target/GUEST_dd2740a1-b9a7-4a4f-906d-3244ff2b517e?wid=1000&hei=1000&qlt=100"
+      },
+      "images": [
+        {
+          "link": "https://target.scene7.com/is/image/Target/GUEST_dd2740a1-b9a7-4a4f-906d-3244ff2b517e?wid=1000&hei=1000&qlt=100"
+        },
+        {
+          "link": "https://target.scene7.com/is/image/Target/GUEST_29507d0a-f7ee-483e-b6c1-72237ea26e7a?wid=1000&hei=1000&qlt=100"
+        },
+        {
+          "link": "https://target.scene7.com/is/image/Target/GUEST_a6980245-9cab-435d-8469-4f01064e04b8?wid=1000&hei=1000&qlt=100"
+        },
+        {
+          "link": "https://target.scene7.com/is/image/Target/GUEST_3680fd7d-ecec-40a9-a13d-7722546532ca?wid=1000&hei=1000&qlt=100"
+        }
+      ],
+      "videos": [
+        {
+          "link": "https://target.scene7.com/is/content/Target/GUEST_0bf20858-cdf8-4e8a-bdc6-723433b97c61_Flash9_Autox720p_2600k",
+          "type": "video/mp4"
+        },
+        {
+          "link": "https://target.scene7.com/is/content/Target/GUEST_75fa3d67-3821-4e47-8ddf-14aa56078d75_Flash9_Autox720p_2600k",
+          "type": "video/mp4"
+        }
+      ],
+      "top_reviews": [
+        {
+          "position": 1,
+          "id": "aa4f1761-c120-4514-bca8-481977a88eda",
+          "title": "Good!",
+          "body": "Good highlighters perfect for the office!",
+          "date": "2023-08-11T16:25:53.766Z",
+          "rating": 5,
+          "source": {
+            "is_external_source": false,
+            "author_name": "Barlos",
+            "author_id": "10009730393",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 2,
+          "id": "c4b8d7e9-662f-430d-8333-23f672617a2d",
+          "title": "Not neon or smudge-free",
+          "body": "Meh. The only neon color is the yellow and that smears the most.",
+          "date": "2023-06-05T15:38:04.425Z",
+          "rating": 3,
+          "source": {
+            "is_external_source": false,
+            "author_name": "mhulse",
+            "author_id": "7964370275",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 3,
+          "id": "53830c82-b5a6-4779-99c5-caa22665d46a",
+          "title": "Gets the job done well",
+          "body": "These are solid highlighters that last a long time and stand out. What more could you want?",
+          "date": "2023-01-06T15:58:00.286Z",
+          "rating": 5,
+          "source": {
+            "is_external_source": false,
+            "author_name": "Cameron",
+            "author_id": "8010169961",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 4,
+          "id": "8713fa2e-e1e5-4450-98e7-e88c4c0594bc",
+          "title": "Good highlighters",
+          "body": "These are good highlighters. Great color and easy to get a nice thick line through your text.",
+          "date": "2023-01-04T20:46:36.614Z",
+          "rating": 5,
+          "source": {
+            "is_external_source": false,
+            "author_name": "evansk",
+            "author_id": "8016205548",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 5,
+          "id": "3eb73e15-29de-411d-947c-0776850553c4",
+          "title": "Awesome",
+          "body": "Awesome for highlighting words and not smudging them! Did exactly what I needed.",
+          "date": "2022-12-28T02:03:46.626Z",
+          "rating": 5,
+          "source": {
+            "is_external_source": false,
+            "author_name": "Breytiful",
+            "author_id": "2421984787",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 6,
+          "id": "c17c2086-5dbc-4f2e-86a2-99f8e4981f17",
+          "title": "Alright highlighter",
+          "body": "Cheep basic highliter",
+          "date": "2022-11-02T12:59:20.056Z",
+          "rating": 3,
+          "source": {
+            "is_external_source": false,
+            "author_name": "Beat667",
+            "author_id": "10049002090",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 7,
+          "id": "2f7693ed-3853-466a-8e2b-663459b2a26f",
+          "title": "They get the job done",
+          "body": "These sharpie highlighter pens are great for any project. I use them for highlighting important things and for studying. They also last a very long time and I have not had any issues with them drying out.",
+          "date": "2022-08-14T00:52:37.123Z",
+          "rating": 5,
+          "source": {
+            "is_external_source": false,
+            "author_name": "Pj",
+            "author_id": "2267552865",
+            "verified_purchase": false
+          }
+        },
+        {
+          "position": 8,
+          "id": "325a9b10-fd75-4e5b-90d6-b0abf9308a2a",
+          "title": "Perfect",
+          "body": "Sharpie never lets me down!",
+          "date": "2022-01-22T16:07:15.579Z",
+          "rating": 5,
+          "source": {
+            "is_external_source": false,
+            "author_name": "dogsrlife",
+            "author_id": "3975219162",
+            "verified_purchase": false
+          }
+        }
+      ],
+      "description": "Draw attention to important information in notes, text and documents with Sharpie Accent Highlighters. The 4 bright fluorescent colors make it easy to read highlighted text and emphasize important passages. Sharpie highlighters dry quickly and resist smearing of many pen and marker inks (let ink dry before highlighting). Includes pink, yellow, orange and blue highlighters. ",
+      "feature_bullets": [
+        "Bright, easy-to-see colors make your highlighted text easy to read",
+        "Resists smearing of many pen and marker inks (let ink dry before highlighting)",
+        "Easy-glide, narrow chisel tip is great for highlighting, underlining or writing notes",
+        "Slim shape is easy to control and slips into backpacks or notebooks",
+        "Includes: Fluorescent Pink, Yellow, Orange and Blue highlighters"
+      ],
+      "aisle": "A17",
+      "buybox_winner": {
+        "price": {
+          "currency_symbol": "$",
+          "currency": "USD",
+          "value": 2.49
+        },
+        "availability": {
+          "raw": "IN_STOCK",
+          "in_stock": true
+        },
+        "fulfillment": {
+          "type": "1p",
+          "pickup": true,
+          "pickup_info": {
+            "ready_in_minutes": 120,
+            "stock_level": 11,
+            "store_id": "1771",
+            "store_address": "3400 Edgewood Rd SW",
+            "store_city": "Cedar Rapids",
+            "store_state": "Iowa",
+            "store_zipcode": "52404-7214",
+            "store_timezone": "America/Chicago"
+          },
+          "delivery_from_store": true,
+          "shipping": true,
+          "shipping_info": {
+            "stock_level": 20,
+            "services": [
+              {
+                "name": "Standard",
+                "description": "Standard Shipping",
+                "is_default": true,
+                "cutoff_time": "2023-09-08T17:00:00Z",
+                "delivery_date": "2023-09-12",
+                "minimum_cart_threshold": 35
+              }
+            ]
+          }
+        }
+      },
+      "specifications": [
+        {
+          "name": "Suggested Age",
+          "value": "18 Years and Up"
+        },
+        {
+          "name": "Ink Color",
+          "value": "Multicolored"
+        },
+        {
+          "name": "Point size",
+          "value": "Fine"
+        },
+        {
+          "name": "Package Quantity",
+          "value": "4"
+        }
+      ],
+      "specifications_flat": "Package Quantity: 4. Point size: Fine. Ink Color: Multicolored. Suggested Age: 18 Years and Up.",
+      "weight": "0.143 pound",
+      "dimensions": "0.79 inch (H) x 3.7 inch (W) x 7.56 inch (D)"
+    },
+    "location_info": {
+      "address": "3400 Edgewood Rd SW",
+      "city": "Cedar Rapids",
+      "state": "Iowa",
+      "zipcode": "52404-7214",
+      "store_name": "Cedar Rapids South",
+      "store_id": "1771"
+    }
+  }

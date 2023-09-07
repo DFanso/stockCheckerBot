@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const {GatewayIntentBits, MessageEmbed,EmbedBuilder } = Discord ;
 const dotenv = require("dotenv");
-const checkAvailability = require('./stockChecker');
+const checkAvailability = require('./walmartChecker');
+const targetAvailability = require('./targetChecker');
 dotenv.config();
 const client = new Discord.Client({
     intents: [
@@ -48,12 +49,62 @@ client.on('messageCreate', async message => {
                 .addFields(
                     { name: 'Item', value: result.name },
                     { name: 'Price', value: `$${result.price}` },
+                    { name: 'Link', value: result.link },
                     { name: 'Availability', value: result.availability },
                     { name: 'Item ID', value: result.item_id },
                     { name: 'Product ID', value: result.product_id },
                     { name: 'UPC', value: result.upc },
+                    { name: 'Store Name', value: result.store_name },
                     { name: 'Store ID', value: result.store_id },
-                    { name: 'Store Address', value: `${result.city}, ${result.state} ${result.zipcode}` }
+                    { name: 'Store Address', value: `${result.address}, ${result.city}, ${result.state} ${result.zipcode}` }
+                )
+                .setTimestamp();
+                
+            
+            message.channel.send(`<@${userId}> Product Data Received!, Check your DMs`)
+            message.author.send({ embeds: [productEmbed] }).catch(error => {
+                console.error(`Could not send DM to <@${userId}>.\n`, error);
+                message.channel.send("I couldn't DM you! Please make sure your DMs are open.");
+            });
+    } catch (error) {
+        message.channel.send(`<@${userId}> Sorry, I couldn't fetch the stock information right now. Check Your UPC and ZIP codes are Correct!`);
+    }
+
+    }
+    else if(message.content.startsWith('!target')) {
+        console.log(`<@${userId}> command received!`)
+      let [command, UPC, ZIP] = message.content.split(' ');
+
+      // Check for valid inputs
+      if (!UPC || isNaN(UPC) || !ZIP || isNaN(ZIP)) {
+        return message.channel.send(`<@${userId}> Please provide a valid numeric UPC and ZIP code. ex: !target 071641102231 10001`);
+    }
+
+    console.log(UPC, ZIP);
+    message.channel.send(`<@${userId}> Request received! Please wait while I'm processing...`);
+
+
+      try {
+        const result = await targetAvailability(UPC, ZIP);
+
+        console.log(result)
+
+        const productEmbed = new EmbedBuilder()
+                .setColor(0x0099FF)
+                .setTitle("Product Information: Target")
+                .setURL(result.link)
+                .setDescription(result.description)
+                .addFields(
+                    { name: 'Item', value: result.name },
+                    { name: 'Price', value: `$${result.price.value}` },
+                    { name: 'Link', value: result.link },
+                    { name: 'Availability', value: result.availability },
+                    { name: 'Item ID', value: result.item_id },
+                    { name: 'Product ID', value: result.product_id },
+                    { name: 'UPC', value: result.upc },
+                    { name: 'Store Name', value: result.store_name },
+                    { name: 'Store ID', value: result.store_id },
+                    { name: 'Store Address', value: `${result.address}, ${result.city}, ${result.state} ${result.zipcode}` }
                 )
                 .setTimestamp();
                 
