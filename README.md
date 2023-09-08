@@ -1,5 +1,5 @@
 # stockCheckerBot
-Get Walmart product scraped data using the BlueCart API and send it back to the user as an embedded message.
+Get Walmart and Target product scraped data using the API and send it back to the user as an embedded message in discord.
 ## .env
 ```
 TOKEN = bot token
